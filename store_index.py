@@ -14,7 +14,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") # to build LLM
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
-extracted_data = pdf_loader(r"data")
+extracted_data = pdf_loader(r"data/")
 minimul_doc = filter_doc(extracted_data)
 text_chunks = text_split(minimul_doc)
 
