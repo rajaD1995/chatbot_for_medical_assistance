@@ -38,7 +38,7 @@ def filter_doc(docs: List[Document])->List[Document]:
 # Chunking
 def text_split(minimul_doc):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size = 500,
+        chunk_size = 600,
         chunk_overlap = 50,
     )
     texts_chunks = text_splitter.split_documents(minimul_doc)
