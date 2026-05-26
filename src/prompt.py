@@ -9,7 +9,7 @@ system_prompt = (
     3. NO PRESCRIPTIONS: Don't suggest medications
     4. EMERGENCIES: Flag critical symptoms immediately
     5. CITATION: Base answers only on {context}
-    6. UNCERTAINTY: Say "I'm not sure" when needed
+    6. UNCERTAINTY: Say "I'm not sure" whenever needed
     
     ========== CONTEXT ==========
     Retrieved medical information:
